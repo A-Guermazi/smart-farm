@@ -1,18 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
+
+## layout
+there is 2 global layouts. one for the anonymous user
+and one for the authenticated user
+
+anonymous user have a navbar and the ability to sign in but not to sign out
+authenticated user have a side bar
 
 
 
