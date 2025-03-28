@@ -15,4 +15,16 @@ bun dev
 ```
 
 
+
+always use legacy peer deps when installing shadcn comps
+
+added from shadcn: skeleton button chart
+
+
+
+
+
+
+
+
 I didn't want to do this but i am deep in the mud
