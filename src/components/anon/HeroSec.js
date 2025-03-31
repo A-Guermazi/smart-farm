@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 export default function HeroSec() {
     return (
 
-        <div className='h-[100vh] flex gap-30 justify-between relative items-center mx-20 '>
+        <section className='h-[100vh] flex gap-30 justify-between relative items-center mx-20 '>
 
             <div className="absolute top-0 -z-10 h-1/5 w-full bg-white">
                 <div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[10%] translate-y-[20%] rounded-full bg-[rgb(37,255,48)] opacity-50 blur-[80px]  overflow-visible">
@@ -69,6 +69,6 @@ export default function HeroSec() {
                 </Image>
             </div>
 
-        </div >
+        </section >
     )
 }
