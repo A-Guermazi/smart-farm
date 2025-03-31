@@ -1,5 +1,6 @@
 import HeroSec from '@/components/anon/HeroSec'
-import React from 'react'
+import { Skeleton } from '@/components/ui/skeleton'
+import React, { Suspense } from 'react'
 
 export default function page() {
     return (

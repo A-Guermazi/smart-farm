@@ -17,9 +17,9 @@ export default function HeroSec() {
                 </div>
             </div>
 
-            <div className='flex flex-col justify-start  gap-2 px-10'>
+            <div className='flex flex-col justify-start  gap-2 px-10 max-w-1/2'>
                 <h1 className='font-bold text-8xl'>Smart Farm</h1>
-                <h1 className='font-bold text-3xl'>Maximize yields with precision agriculture.
+                <h1 className='font-bold text-2xl'>Transform your agricultural practices with cutting-edge IoT technology and data-driven insights
                 </h1>
 
 
