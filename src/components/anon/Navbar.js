@@ -5,7 +5,7 @@ import { IconLeaf } from '@tabler/icons-react'
 
 export default function Navbar() {
     return (
-        <div className=' flex justify-between shadow-2xs items-center px-5  font-medium z-50 w-full backdrop-blur-sm sticky top-0 bg-white '>
+        <div className=' flex justify-between shadow-2xs items-center px-5  font-medium z-50 w-full backdrop-blur-sm sticky top-0 bg-white content-center'>
 
 
             <Link href="/" className="flex items-center gap-2 font-bold text-xl text-green-600 ">

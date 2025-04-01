@@ -1,15 +1,18 @@
 import { Footer } from '@/components/anon/Footer'
 import HeroSec from '@/components/anon/HeroSec'
-import WhyUs from '@/components/anon/WhyUs'
+import FarmingSolution from '@/components/anon/FarmingSolution'
 import { Skeleton } from '@/components/ui/skeleton'
 import React, { Suspense } from 'react'
+import WhyChooseUs from '@/components/anon/WhyChooseUs'
+import DemandForm from '@/components/anon/DemandForm'
 
 export default function page() {
     return (
-        <div>
+        <div className='flex flex-col items-center gap-10'>
             <HeroSec />
-            <WhyUs />
-
+            <FarmingSolution />
+            <WhyChooseUs />
+            <DemandForm />
             <Footer />
         </div>
     )

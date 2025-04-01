@@ -12,10 +12,17 @@ import SingleWhyUsCard from './SingleWhyUsCard'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IconDroplets } from '@tabler/icons-react'
-export default function WhyUs() {
+export default function FarmingSolution() {
     return (
-        <section className='m-20'>
-            <h1 className='font-bold text-5xl'>Why Choose Us</h1>
+        <section className='min-h-screen content-center'>
+            <div className='max-w-3xl mx-auto text-center'>
+                <h1 className='font-bold text-5xl'>Smart Farming Solutions</h1>
+                <p className='font-normal text-2xl my-2'>
+                    Our integrated platform provides everything you need to optimize
+                    your farm operations and maximize productivity
+                </p>
+
+            </div>
             <div className='flex m-10 gap-5 flex-wrap justify-center'>
                 <Card className="grid ">
                     <CardHeader className="grid gap-5 mt-2 ">

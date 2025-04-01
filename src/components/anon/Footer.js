@@ -3,7 +3,7 @@ import { Leaf, Twitter, Instagram, Linkedin } from 'lucide-react'
 
 export function Footer() {
     return (
-        <footer className="w-full bg-white py-8 border-t border-green-100">
+        <footer className="w-full bg-white py-8 border-t border-green-100 mt-20">
             <div className="container px-4 md:px-6 mx-auto">
                 {/* Top section with logo and links */}
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-4 mb-8">
