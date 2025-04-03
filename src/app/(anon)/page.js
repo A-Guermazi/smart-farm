@@ -1,6 +1,6 @@
 import { Footer } from '@/components/anon/Footer'
 import HeroSec from '@/components/anon/HeroSec'
-import FarmingSolution from '@/components/anon/FarmingSolution'
+import FarmingSolution from '@/components/anon/farmingSolution/FarmingSolution'
 import { Skeleton } from '@/components/ui/skeleton'
 import React, { Suspense } from 'react'
 import WhyChooseUs from '@/components/anon/WhyChooseUs'
