@@ -25,7 +25,7 @@ export default function HeroSec() {
 
                 <Button className="w-1/2">Buy Now</Button>
             </div>
-            <div className='realtive'>
+            <div className='realtive hidden lg:block'>
                 <div className='absolute -translate-x-5 -translate-y-10'>
                     <Image
                         src="/mockups/drone.png"

@@ -15,7 +15,7 @@ export default function ({ title, Icon, mainText, subtext1, subtext2, subtext3, 
     return (
         <Card className="min-h-[450px] flex flex-col max-w-[500px]">
             <CardHeader className="grid gap-5 mt-2 ">
-                <div className={`${bgColor} text-white h-15 w-15 rounded-md flex justify-center items-center`}>
+                <div className={`${bgColor}  text-white h-15 w-15 rounded-2xl flex justify-center items-center`}>
                     {Icon && < Icon stroke={1.5} className='h-10 w-10' />}
                 </div>
                 <CardTitle className="text-2xl">{title}</CardTitle>
