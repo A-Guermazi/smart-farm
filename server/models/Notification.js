@@ -16,7 +16,13 @@ module.exports = (sequelize, DataTypes) => {
     Notification.associate = (models) => {
         Notification.belongsTo(models.Users, {
             foreignKey: {
-                allowNull: false
+                allowNull: true
+            },
+            onDelete: "CASCADE"
+        });
+        Notification.belongsTo(models.Farms, {
+            foreignKey: {
+                allowNull: true
             },
             onDelete: "CASCADE"
         });

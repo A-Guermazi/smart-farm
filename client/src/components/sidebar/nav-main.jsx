@@ -73,10 +73,10 @@ export function NavMain() {
           </SidebarMenuItem>
 
           <SidebarMenuItem>
-            <Link href="waterstation">
-              <SidebarMenuButton tooltip="Water Station">
+            <Link href="weatherstation">
+              <SidebarMenuButton tooltip="Weather Station">
                 <IconDroplet />
-                <span>Water Station</span>
+                <span>Weather Station</span>
               </SidebarMenuButton>
             </Link>
           </SidebarMenuItem>

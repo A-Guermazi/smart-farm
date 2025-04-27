@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 
 export default function SectionCards({ data }) {
+
   return (
     <div
       //*:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card dark:*:data-[slot=card]:bg-card
