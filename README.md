@@ -28,25 +28,25 @@ A web application for monitoring and managing smart agriculture systems using re
 
 ## 🔧 Setup & Installation
 
-1. **Clone the repository**
+### 1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/smart-farm.git
 cd smart-farm
 ```
 
-2.  Install dependencies
+### 2.  Install dependencies
 
 
-# Frontend
+#### Frontend
 cd client
 npm install
 
-# Backend
+#### Backend
 cd ../server
 npm install
 
 
-3. Configure environment variables
+### 3. Configure environment variables
 
 
 in the /server/config/config.json you will find the database config
@@ -54,13 +54,13 @@ in the /server/config/config.json you will find the database config
 
 set it up according to your local Mysql server
 
-4.run
+### 4.run
 
-# Frontend
+#### Frontend
 cd client
 npm run dev
 
-# Backend
+#### Backend
 cd ../server
 node index.js
 
