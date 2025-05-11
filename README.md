@@ -44,7 +44,7 @@ npm install
 ```
 #### Backend
 ```bash
-cd ../server
+cd .server
 npm install
 ```
 
@@ -59,12 +59,14 @@ set it up according to your local Mysql server
 ### 4.run
 
 #### Frontend
+```bash
 cd client
 npm run dev
-
+```
 #### Backend
-cd ../server
-node index.js
-
+```bash
+cd .server
+npm start
+```
 
 
