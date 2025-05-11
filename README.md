@@ -1,0 +1,68 @@
+# 🌱 Smart Farm Web Platform
+
+A web application for monitoring and managing smart agriculture systems using real-time sensor data. This platform displays environmental metrics such as temperature, humidity, and soil moisture collected via IoT devices.
+
+## 🚀 Features
+
+- Real-time display of sensor data
+- Dashboard for farm condition monitoring
+- User-friendly and responsive interface
+- MySQL database integration for data storage
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js
+- **Backend:** Node.js
+- **Database:** MySQL
+- **Other:** REST APIs, Linux environment
+
+## 📷 Screenshots
+
+> *(Include screenshots or GIFs here if you have them!)*
+
+## 📂 Project Structure
+
+/client → Frontend (Next.js)
+/server → Backend (Node.js, Express)
+
+
+## 🔧 Setup & Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/smart-farm.git
+cd smart-farm
+```
+
+2.  Install dependencies
+
+
+# Frontend
+cd client
+npm install
+
+# Backend
+cd ../server
+npm install
+
+
+3. Configure environment variables
+
+
+in the /server/config/config.json you will find the database config
+
+
+set it up according to your local Mysql server
+
+4.run
+
+# Frontend
+cd client
+npm run dev
+
+# Backend
+cd ../server
+node index.js
+
+
+
