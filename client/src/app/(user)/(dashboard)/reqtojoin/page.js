@@ -43,8 +43,7 @@ function page() {
                 setReqs(prevReqs => prevReqs.filter(req => req.id !== user.id));
 
             }
-        }
-        )
+        })
 
     }
 

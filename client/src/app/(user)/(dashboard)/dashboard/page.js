@@ -1,26 +1,53 @@
 import SiteHeader from "@/components/site-header";
-import SectionCards from "@/components/section-cards"
-import ChartAreaInteractive from "@/components/chart-area-interactive"
-// import DataTable from "@/components/data-table";
-// import tableData from "./tableData.json";
-import cardsData from "./cardsData.json";
+import GreenHouseCom from "@/components/GreenHouseComp";
+import WeatherComponent from "@/components/WeatherComponent";
+import ChartAreaInteractive from "@/components/chart-area-interactive";
+import AnalyzeWeather from "@/components/analyzeWeather";
+
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
 
 function Page() {
     return (
         <>
             <SiteHeader current="Dashboard" />
-            <div className="flex flex-1 flex-col">
-                <div className="@container/main flex flex-1 flex-col gap-2">
-                    <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
-                        <SectionCards data={cardsData} />
-                        <div className="px-4 lg:px-6">
+            <div className="p-6">
+                <Accordion type="multiple" className="w-full space-y-2">
+                    <AccordionItem value="greenhouse">
+                        <AccordionTrigger>🌱 Greenhouse Data</AccordionTrigger>
+                        <AccordionContent>
+                            <GreenHouseCom />
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="weather">
+                        <AccordionTrigger>☁️ Live Weather</AccordionTrigger>
+                        <AccordionContent>
+                            <WeatherComponent />
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="chart">
+                        <AccordionTrigger>📊 Weather Chart</AccordionTrigger>
+                        <AccordionContent>
                             <ChartAreaInteractive />
-                        </div>
-                        {/* <DataTable data={tableData} /> */}
-                    </div>
-                </div>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="analysis">
+                        <AccordionTrigger>🧠 Weather Analysis</AccordionTrigger>
+                        <AccordionContent>
+                            <AnalyzeWeather />
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
             </div>
         </>
     );
 }
+
 export default Page;

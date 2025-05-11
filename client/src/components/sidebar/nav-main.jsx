@@ -55,15 +55,6 @@ export function NavMain() {
           </SidebarMenuItem>
 
           <SidebarMenuItem>
-            <Link href="analytics">
-              <SidebarMenuButton tooltip="Analytics">
-                <IconDeviceDesktopAnalytics />
-                <span>Analytics</span>
-              </SidebarMenuButton>
-            </Link>
-          </SidebarMenuItem>
-
-          <SidebarMenuItem>
             <Link href="greenhouse">
               <SidebarMenuButton tooltip="Green House">
                 <IconHomeEco />
@@ -80,7 +71,14 @@ export function NavMain() {
               </SidebarMenuButton>
             </Link>
           </SidebarMenuItem>
-
+          <SidebarMenuItem>
+            <Link href="analytics">
+              <SidebarMenuButton tooltip="Analytics">
+                <IconDeviceDesktopAnalytics />
+                <span>Analytics</span>
+              </SidebarMenuButton>
+            </Link>
+          </SidebarMenuItem>
           <SidebarMenuItem>
             <Link href="reqtojoin">
               <SidebarMenuButton tooltip="Green House">

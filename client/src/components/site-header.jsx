@@ -19,9 +19,7 @@ export default function SiteHeader({ current = "Document" }) {
               rel="noopener noreferrer"
               target="_blank"
               className="dark:text-foreground"
-            >
-              GitHub
-            </a>
+            ></a>
           </Button>
         </div>
       </div>

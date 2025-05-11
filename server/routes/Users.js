@@ -36,7 +36,6 @@ router.post("/login", async (req, res) => {
         return res.json({ error: "User not exist" });
     }
     // compare password
-    console.log("user")
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) { return res.json({ error: "Invalid credentials" }); }
     //this is where you create a token

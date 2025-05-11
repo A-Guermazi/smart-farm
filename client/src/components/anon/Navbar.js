@@ -19,7 +19,10 @@ export default function Navbar() {
                 <Link className='' href="/"><Button variant="ghost" className="font-medium p-4 m-2">about</Button></Link>
                 <Link className='' href="/"><Button variant="ghost" className="font-medium p-4 m-2">contact us</Button></Link>
             </div>
-            <Link href="signin"><Button variant="ghost" className="font-medium p-4 m-2">Sign In</Button></Link>
+            <div>
+                <Link href="signup"><Button variant="ghost" className="font-medium p-4 m-2">Sign up</Button></Link>
+                <Link href="signin"><Button variant="ghost" className="font-medium p-4 m-2">Sign In</Button></Link>
+            </div>
         </div>
     )
 }

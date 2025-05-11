@@ -258,15 +258,18 @@ const generateDummyData = async () => {
         });
     }
     // Insert WeatherStation data
-    await WeatherStation.create({
-        Wind: wind,
-        rain: rain,
-        FarmId: 1, // Assuming FarmId is 1
+    // await WeatherStation.create({
+    //     Wind: wind,
+    //     rain: rain,
+    //     FarmId: 1, // Assuming FarmId is 1
 
-    });
+    // });
 
     console.log("New dummy data generated for the current minute!");
 };
+
+
+
 
 // Set an interval to run every 1 minute (60000 ms)
 setInterval(generateDummyData, 50000); // Run the function every minute
