@@ -38,13 +38,15 @@ cd smart-farm
 
 
 #### Frontend
+```bash
 cd client
 npm install
-
+```
 #### Backend
+```bash
 cd ../server
 npm install
-
+```
 
 ### 3. Configure environment variables
 
