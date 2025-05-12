@@ -18,7 +18,7 @@ A web application for monitoring and managing smart agriculture systems using re
 
 ## 📷 Videos
 
-you will find videos about the app [https://drive.google.com/drive/folders/1SwDFYaZVVGH-_PVYmybZlgYjNL1-8dSf?usp=sharing](#here)
+you will find videos about the app [here](https://drive.google.com/drive/folders/1SwDFYaZVVGH-_PVYmybZlgYjNL1-8dSf?usp=sharing)
 
 ## 📂 Project Structure
 
