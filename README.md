@@ -14,7 +14,7 @@ A web application for monitoring and managing smart agriculture systems using re
 - **Frontend:** Next.js
 - **Backend:** Node.js
 - **Database:** MySQL
-- **Other:** REST APIs, Linux environment
+- **Other:** REST APIs
 
 ## 📷 Videos
 
