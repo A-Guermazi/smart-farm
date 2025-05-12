@@ -16,9 +16,9 @@ A web application for monitoring and managing smart agriculture systems using re
 - **Database:** MySQL
 - **Other:** REST APIs, Linux environment
 
-## 📷 Screenshots
+## 📷 Videos
 
-> *(Include screenshots or GIFs here if you have them!)*
+you will find videos about the app ![here](https://drive.google.com/drive/folders/1SwDFYaZVVGH-_PVYmybZlgYjNL1-8dSf?usp=sharing)
 
 ## 📂 Project Structure
 
