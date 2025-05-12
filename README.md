@@ -23,6 +23,8 @@ you will find videos about the app [here](https://drive.google.com/drive/folders
 ## 📂 Project Structure
 
 /client → Frontend (Next.js)
+
+
 /server → Backend (Node.js, Express)
 
 
