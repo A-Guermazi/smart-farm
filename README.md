@@ -32,7 +32,7 @@ you will find videos about the app [here](https://drive.google.com/drive/folders
 
 ### 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/smart-farm.git
+git clone https://github.com/A-Guermazi/smart-farm.git
 cd smart-farm
 ```
 
